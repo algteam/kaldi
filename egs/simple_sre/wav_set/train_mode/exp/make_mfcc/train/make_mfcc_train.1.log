@@ -1,0 +1,7 @@
+# compute-mfcc-feats --verbose=2 --config=conf/mfcc.conf scp,p:/home/swair/Desktop/data/github_ws/kaldi/egs/simple-sre/wav_set/train_mode/exp/make_mfcc/train/wav_train.1.scp ark:- | copy-feats --compress=true ark:- ark,scp:/home/swair/Desktop/data/github_ws/kaldi/egs/simple-sre/wav_set/train_mode/mfcc/raw_mfcc_train.1.ark,/home/swair/Desktop/data/github_ws/kaldi/egs/simple-sre/wav_set/train_mode/mfcc/raw_mfcc_train.1.scp 
+# Started at Tue Nov 13 15:41:18 CST 2018
+#
+bash: line 1: compute-mfcc-feats: command not found
+bash: line 1: copy-feats: command not found
+# Accounting: time=0 threads=1
+# Ended (code 127) at Tue Nov 13 15:41:18 CST 2018, elapsed time 0 seconds
